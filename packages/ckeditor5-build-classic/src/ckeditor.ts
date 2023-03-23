@@ -31,7 +31,6 @@ import { CodeBlock } from '@ckeditor/ckeditor5-code-block';
 import { DataFilter, DataSchema, GeneralHtmlSupport } from '@ckeditor/ckeditor5-html-support';
 import { FindAndReplace } from '@ckeditor/ckeditor5-find-and-replace';
 import { FontBackgroundColor, FontColor, FontFamily, FontSize } from '@ckeditor/ckeditor5-font';
-import { Markdown } from '@ckeditor/ckeditor5-markdown-gfm';
 import { Mention } from '@ckeditor/ckeditor5-mention';
 import { PageBreak } from '@ckeditor/ckeditor5-page-break';
 import { RemoveFormat } from '@ckeditor/ckeditor5-remove-format';
@@ -90,7 +89,6 @@ ClassicEditor.builtinPlugins = [
 	IndentBlock,
 	LinkImage,
 	ListProperties,
-	Markdown,
 	Mention,
 	PageBreak,
 	RemoveFormat,
