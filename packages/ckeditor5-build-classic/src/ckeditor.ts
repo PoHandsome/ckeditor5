@@ -120,7 +120,6 @@ ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
-			'style',
 			'|',
 			'fontSize',
 			'fontColor',
@@ -147,7 +146,7 @@ ClassicEditor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
 			'redo',
-			'|',
+			'-',
 			'removeFormat',
 			'imageInsert',
 			'code',
